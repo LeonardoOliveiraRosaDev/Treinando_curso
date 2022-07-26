@@ -1,3 +1,4 @@
+Estudo Cronograma
 
 - HTML
     - tags
@@ -17,5 +18,5 @@
     - 
 
     JS
-     - tudo
+     - tudo (rsss)
      
