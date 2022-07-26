@@ -4,6 +4,7 @@ Estudo Cronograma
     - tags
     - classe
     - id
+    - pseudo classe
     - menu responsivo dropdown
     - font google
     - font awesome

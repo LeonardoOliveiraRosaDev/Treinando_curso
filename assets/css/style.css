@@ -17,12 +17,34 @@
     height:15vh;
     background-color: blue;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top:100%;
+
 }
 
 .img2__header{
     width: 80px;
+}
+
+.ul__header{
+    display: flex;   
+    align-items: center;
+}
+
+.li__header{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.li__header:first-child{
+    margin-left: 10px;
+    
+}
+
+.input__header{
+    margin-right: 35px;
+
 }
 
 
