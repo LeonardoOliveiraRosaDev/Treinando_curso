@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
     font-size: 16px;
 }
 
@@ -9,3 +11,18 @@
     width: 100vw;
     height: 100vh;
 }
+
+.nav__header{
+    width: 100vw;
+    height:15vh;
+    background-color: blue;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.img2__header{
+    width: 80px;
+}
+
+
