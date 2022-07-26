@@ -1,10 +1,9 @@
-meet.google.com/vrj-gbir-ngu
-
 
 - HTML
     - tags
     - classe
     - id
+    - menu responsivo dropdown
     - font google
     - font awesome
     - formuario
