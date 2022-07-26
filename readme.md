@@ -9,6 +9,7 @@ Estudo Cronograma
     - font google
     - font awesome
     - formuario
+    - Mais alguns detalhes
 
 - CSS
     - estilos
@@ -16,7 +17,7 @@ Estudo Cronograma
     - flexbox
     - grid
     - reponsividade @media
-    - 
+    - @media
 
     JS
      - tudo (rsss)
