@@ -18,6 +18,6 @@ Estudo Cronograma
     - reponsividade @media
     - 
 
-    JS
+    JS Em breve
      - tudo (rsss)
      
