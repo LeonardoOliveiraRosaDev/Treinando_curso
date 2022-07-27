@@ -1,0 +1,31 @@
+div{
+    border: 5px solid red;
+}
+
+
+/* templates areas para desenha as areas */
+body{
+    display: grid;
+    grid-template-areas: "a b b " "c b b" "d d d" ;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.div1{
+    grid-area: a;
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+}
+
+.div2{
+    grid-area: b;
+}
+
+.div3{
+    grid-area: c;
+}
+
+.div4{
+    grid-area: d;
+}
