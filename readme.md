@@ -1,9 +1,9 @@
 Estudo Cronograma
 
 - HTML
-    - tags
-    - classe
-    - id
+    - tags - ok
+    - classe - ok
+    - id - ok
     - pseudo classe
     - menu responsivo dropdown
     - font google
@@ -11,10 +11,10 @@ Estudo Cronograma
     - formuario
 
 - CSS
-    - estilos
-    - tamanho e medidas px rem vh vw %
-    - flexbox
-    - grid
+    - estilos - ok 
+    - tamanho e medidas px rem vh vw % - ok
+    - flexbox - ok
+    - grid - ok
     - reponsividade @media
     - 
 
