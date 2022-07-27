@@ -14,7 +14,7 @@
 
 .nav__header{
     width: 100vw;
-    height:15vh;
+    height: 9.2rem;
     background-color: blue;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,44 @@
 
 .main{
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: "a b" "a b" ;
+    margin-top: 8rem;
+    
+    
 }
 
+.section__main{
+    width: 85vw;
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.nav__main{
+    grid-area: b;
+    margin-right: 13rem;
+   
+}    
+
+.img__main{
+    width: 50rem;
+    
+}
+
+.p__main{
+    width: 50rem;
+    text-align: center;
+}
+.section2__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button__main{
+    width: 10rem;
+    margin: 0 auto;
+    
+}
