@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
     <title>Blog Baseball</title>
   </head>
   <body class="body">
@@ -93,34 +96,38 @@
         </section>
         <section class="section2__nav">
           <h3 class="h3__nav">|TAGS</h3>
-          <button class="button__nav">1</button>
-          <button class="button__nav">2</button>
-          <button class="button__nav">3</button>
-          <button class="button__nav">4</button>
+            <div class="div__nav">
+              <button class="button__nav">1</button>
+              <button class="button__nav">2</button>
+              <button class="button__nav">3</button>
+              <button class="button__nav">4</button>
+          </div>
         </section>
         <section class="section3__nav">
           <h3 class="h3__nav">ESCRITORES</h3>
-          <img class="img__nav" src="./assets/img/Ellipse 2.png" alt="" />
-          <img class="img__nav" src="./assets/img/Ellipse 3.png" alt="" />
-          <img class="img__nav" src="./assets/img/Ellipse 4.png" alt="" />
+          <div class="div2__nav">
+            <img class="img__nav" src="./assets/img/Ellipse 2.png" alt="" />
+            <img class="img__nav" src="./assets/img/Ellipse 3.png" alt="" />
+            <img class="img__nav" src="./assets/img/Ellipse 4.png" alt="" />
+          </div>
         </section>
       </nav>
     </main>
     <footer>
       <section>
-        <form action="">
-          <label for="">Nome:</label>
-          <input type="text" placeholder="Digite nome" />
-          <label for="">E-mail:</label>
-          <input type="email" placeholder="Digite seu email" />
-          <label for="">Senha</label>
-          <input type="password" placeholder="Digite sua senha" />
-          <p>Mostrar Senha</p>
-          <input type="checkbox" />
-          <label for="masculino">M</label>
-          <input type="radio" name="sexo" />
-          <label for="feminino">F</label>
-          <input type="radio" name="sexo" />
+        <form class="form__footer" action="">
+          <label class="label__nome" for="">Nome:</label>
+          <input class="input__nome"type="text" placeholder="Digite nome" />
+          <label class="label__email"for="">E-mail:</label>
+          <input class="input__email"type="email" placeholder="Digite seu email" />
+          <label class="label__senha"for="">Senha</label>
+          <input class="input__senha"type="password" placeholder="Digite sua senha" />
+          <label class="label__checkbox" for="checkbox">Mostrar Senha:</label> 
+          <input class="input__checkbox" type="checkbox" id="checkbox">
+          <label class="labe__m"for="masculino">M</label>
+          <input class="input__m"type="radio" name="sexo" />
+          <label class="label__f"for="feminino">F</label>
+          <input class="input_+f"type="radio" name="sexo" />
         </form>
       </section>
     </footer>

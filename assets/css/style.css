@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     text-decoration: none;
     list-style-type: none;
     font-size: 16px;
+   
 }
 
 .img__header{
@@ -15,7 +17,7 @@
 .nav__header{
     width: 100vw;
     height: 9.2rem;
-    background-color: blue;
+    background-color: #c06345;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,12 +54,10 @@
     display: grid;
     grid-template-areas: "a b" "a b" ;
     margin-top: 8rem;
-    
-    
 }
 
 .section__main{
-    width: 85vw;
+    margin-left:300px;
     grid-area: a;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,9 @@
 
 .nav__main{
     grid-area: b;
-    margin-right: 13rem;
-   
+    border-left: 1px solid black;
+    padding: 2rem;
+    height: 47vh ;
 }    
 
 .img__main{
@@ -91,3 +92,57 @@
     margin: 0 auto;
     
 }
+
+.section__nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.h3__nav{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.li__nav{
+    font-size: 13.5px;
+}
+
+
+.section__nav,
+.section2__nav,
+.section3__nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .div__nav{
+        width: 20rem;
+        display: flex;
+        display: grid;
+        grid-template-areas: "a b" ;
+    }
+
+    .button__nav{
+        background-color: #c06345;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 2rem;
+        margin-right: .5rem;
+        margin-left: .1rem;
+        margin-top: .5rem;
+        box-shadow: 5px -5px 5px #343834 ;
+        cursor: pointer;
+        margin-bottom: 2 rem;
+    }
+    
+    .div2__nav{
+        display: flex;
+    }
+    .img__nav{
+        width: 5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
+    }
