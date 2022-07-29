@@ -6,7 +6,7 @@ Estudo Cronograma
     - id - ok
     - pseudo classe
     - menu responsivo dropdown
-    - font google
+    - font google - ok
     - font awesome
     - formuario
 
@@ -16,7 +16,7 @@ Estudo Cronograma
     - flexbox - ok
     - grid - ok
     - reponsividade @media
-    - 
+    - Media Queries - ok
 
     JS Em breve
      - tudo (rsss)
