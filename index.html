@@ -113,21 +113,33 @@
         </section>
       </nav>
     </main>
-    <footer>
-      <section>
+    <footer class="footer">
+      <section class="section__footer">
+        <div class="div__cadastro">
+          <h2 class="cadastro">Cadastro</h2>
+        </div>
         <form class="form__footer" action="">
-          <label class="label__nome" for="">Nome:</label>
-          <input class="input__nome"type="text" placeholder="Digite nome" />
-          <label class="label__email"for="">E-mail:</label>
-          <input class="input__email"type="email" placeholder="Digite seu email" />
-          <label class="label__senha"for="">Senha</label>
-          <input class="input__senha"type="password" placeholder="Digite sua senha" />
-          <label class="label__checkbox" for="checkbox">Mostrar Senha:</label> 
-          <input class="input__checkbox" type="checkbox" id="checkbox">
-          <label class="labe__m"for="masculino">M</label>
-          <input class="input__m"type="radio" name="sexo" />
-          <label class="label__f"for="feminino">F</label>
-          <input class="input__f"type="radio" name="sexo" />
+          <div class="div__nome">
+            <label class="label__nome" for="">Nome:</label>
+            <input class="input__nome"type="text" placeholder="Digite nome" />
+          </div>
+          <div class="div__email">
+            <label class="label__email"for="">E-mail:</label>
+            <input class="input__email"type="email" placeholder="Digite seu email" />
+          </div>
+          <div class="div__senha">
+            <label class="label__senha"for="">Senha</label>
+            <input class="input__senha"type="password" placeholder="Digite sua senha" />
+            <label class="label__checkbox" for="checkbox">Mostrar Senha:</label> 
+            <input class="input__checkbox" type="checkbox" id="checkbox">
+          </div>
+          <div class="div__sexo">
+            <p>Sexo:</p>
+            <label class="labe__m"for="masculino">Masculino</label>
+            <input class="input__m"type="radio" name="sexo">
+            <label class="label__f"for="feminino">Feminino</label>
+            <input class="input__f"type="radio" name="sexo" />
+          </div>
         </form>
       </section>
     </footer>
