@@ -211,11 +211,11 @@
         
         .main{
             width: 100%;
-            margin: 0;
+            margin: 0 60px;
         }
 
         .img__main{
-            width: 96%;
+            width: 80%;
             
         }
 
@@ -226,6 +226,10 @@
         }
         .nav__main{
             display: none;
+        }
+
+        .p__main{
+            
         }
     }
 
